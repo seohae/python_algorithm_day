@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/two-sum/
+
 # 반복문
 # 반복문 요소와 어떤 값을 더해야 target 이 되는가?
 
