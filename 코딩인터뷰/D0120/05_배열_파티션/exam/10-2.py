@@ -4,6 +4,8 @@ from typing import List
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         sum = 0
+
+        # 정렬
         nums.sort()
 
         for i, n in enumerate(nums):

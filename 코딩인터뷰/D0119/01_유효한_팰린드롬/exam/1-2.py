@@ -12,6 +12,7 @@ class Solution:
                 strs.append(char.lower())
 
         while len(strs) > 1:
+            # popleft() : 왼쪽부터 꺼내기
             if strs.popleft() != strs.pop():
                 return False
 
